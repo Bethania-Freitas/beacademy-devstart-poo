@@ -2,7 +2,7 @@
 
 include 'Usuario.php';
 include 'Cliente.php';
-include 'ClienteVip.php';
+
 include 'Gestor.php';
 include 'GestorGeral.php';
 
@@ -15,8 +15,6 @@ $g1->setNome('Zezinho');
 
 $gg1 = new GestorGeral('maria@email.com', '1w2e3r', 9000);
 
-$clienteVip = new ClienteVip('cliente@email.com', '111222');
-
 // $us = new Usuario('hacker@email.com', '111111');
 
 
@@ -24,4 +22,4 @@ $clienteVip = new ClienteVip('cliente@email.com', '111222');
 var_dump($c1);
 var_dump($g1);
 var_dump($gg1);
-var_dump($clienteVip);
+
